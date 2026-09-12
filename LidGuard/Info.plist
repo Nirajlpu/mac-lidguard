@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>LidGuard</string>
+	<key>CFBundleDisplayName</key>
+	<string>LidGuard</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>LidGuard needs camera access to capture a photo when your Mac wakes from sleep or the lid is opened, helping you identify unauthorized access.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>LidGuard uses your location to tag security alert photos with precise GPS coordinates, helping you locate your Mac if accessed by an unauthorized person.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>LidGuard uses your location to tag security alert photos with precise GPS coordinates.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>LidGuard needs continuous location access to tag security photos with GPS coordinates even when running in the background.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2026 Niraj Kumar. All rights reserved.</string>
+</dict>
+</plist>
