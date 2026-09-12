@@ -67,12 +67,24 @@
 
 ## 🛠️ Build & Installation Guide
 
-### Option 1: Build from Source with Xcode
+### Option 1: Direct Run (Pre-built `.dmg`) 🚀
+
+A pre-built Disk Image (`LidGuard.dmg`) is included directly in this repository for instant installation:
+
+1. **Download `LidGuard.dmg`** directly from the repository root (or [clone the repo](https://github.com/Nirajlpu/mac-lidguard.git)).
+2. **Double-click `LidGuard.dmg`** to mount the disk image.
+3. **Drag `LidGuard.app`** into your `Applications` folder.
+4. Launch **LidGuard** from Applications or Spotlight (`Cmd + Space`).
+5. Grant **Camera** and **Location** permissions when prompted on first launch.
+
+---
+
+### Option 2: Build from Source with Xcode
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/LidGuard.git
-   cd LidGuard
+   git clone https://github.com/Nirajlpu/mac-lidguard.git
+   cd mac-lidguard
    ```
 
 2. **Open in Xcode**:
